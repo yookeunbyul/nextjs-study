@@ -1,13 +1,7 @@
-import Image from "next/image";
-import profilePic from "/public/hello.jpg";
-
-export default function Home() {
+export default function Page() {
   return (
-    <>
-      <h2>Welcome</h2>
-      Hello, WEB!
-      <br />
-      <Image src={profilePic} alt="" />
-    </>
+    <div class="text-tahiti">
+      <h1 class="text-3xl font-bold underline">Hello, Next.js!</h1>;
+    </div>
   );
 }
